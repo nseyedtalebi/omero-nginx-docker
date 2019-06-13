@@ -1,5 +1,5 @@
 # Builder (stage 0)
-FROM openmicroscopy/omero-web
+FROM omero-web-custom
 
 ARG PYTHONPATH=/opt/omero/web/venv/lib/python2.7/site-packages/:/opt/omero/web/OMERO.web/lib/python/
 
